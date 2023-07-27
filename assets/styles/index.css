@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Montserrat'; */
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #0b110b;
+    color: #fff;
+    border-top: 7px solid #15ff00;
+    user-select: none;
+}
+
+p {
+    color: #9e9e9e;
+}
+
+header {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(25, 31, 23);
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid #15ff00;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+nav a:hover {
+    /* border-bottom: 2px solid #fff; */
+    background-color: #0b110b;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .4s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: #15ff00;
+}
+
+/* COMIENZA */
+
+.profile-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.profile-content {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-content p {
+    margin: 20px;
+}
+
+.profile-content a {
+    margin: 10px;
+    background-color: #171f17;
+    color: #15ff00;
+    padding: 10px 20px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.profile-content a:hover {
+    background-color: #273b1e;
+    transition: .4s;
+}
+
+.desc-box {
+    display: block;
+    background-color: #191f17;
+    border-left: 7px solid #15ff00;
+    justify-content: center;
+}
+
+.desc-box p {
+    margin-left: 20px;
+}
+
+.desc-box h1 {
+    margin-left: 20px;
+}
+
+.desc-box img {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.desc-box a {
+    color: #15ff00;
+}
+
+.title-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #15ff00;
+    box-shadow: 0px 0px 0px 5px #15ff00;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191f17;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+}
+
+.skill-list p {
+    margin: 10px;
+}
+
+.skill-list img {
+    width: 50px;
+    margin: 20px;
+}
+
+
+/* TERMINA */
+
+.boxchat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.statsbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191f17;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 300px;
+    height: 450px;
+}
+
+.statsbox p {
+    margin: 10px;
+}
+
+.statsbox img {
+    width: 100px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.statsbox a {
+    color: #15ff00;
+    background-color: #0d110b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background-color: #3d3d3d;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #535353;
+    border: 1px solid #666666;
+}
+
+footer a {
+    color: #ffffff07;
+}
+
+/* *
+- INFO
+* Web Coded by ThunLigh | https://thunligh.netlify.app
+- INFO
+* Freely customizable public code, if you have questions you
+* can consult them with ThunLigh at: https: //discord.gg/4ZrXpYwT3Q
+* */
